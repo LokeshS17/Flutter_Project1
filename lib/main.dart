@@ -9,7 +9,7 @@ void main() {
     initialRoute: '/home',
     routes: {
         '/':(context) => Loading(),
-      '/home':(context)=> Home(),
+    //  '/home':(context)=> Home(),
       '/location':(context)=>ChooseLocation(),
     },
   ));
